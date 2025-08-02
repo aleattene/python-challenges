@@ -243,6 +243,9 @@ dmypy.json
 
 # ======================================================================================================================
 
-# Advent of Code
+# Everybody Codes
 input.txt
+input_01.txt
+input_02.txt
+input_03.txt
 results.md

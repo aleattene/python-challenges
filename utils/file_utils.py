@@ -1,6 +1,7 @@
 import os
 from rich.console import Console
 from rich.table import Table
+import numpy as np
 
 
 def get_input_file_path(current_file: str, filename: str) -> str:
@@ -128,3 +129,24 @@ def decrypt_caesar_cipher_with_exceptions(
     return encrypt_caesar_cipher_with_exceptions(text_to_decrypt, -shift, alphabet_length, exceptions)
 
 
+def from_linear_to_circular_string(string: str) -> str:
+    """
+    This function takes a linear string and converts it into a circular string.
+    If the input string is empty, it returns an empty string, otherwise it appends the first n-1 characters to the end
+    of the string to create a circular effect.
+    :param string: The linear string to convert (e.g., "ABCDE").
+    :return: The circular string (e.g., "ABCDEABCD").
+    """
+    if not string: return string
+    return string + string[:len(string)-1]
+
+def transpose_matrix_of_strings(matrix: list[str]) -> list[str]:
+    """
+    Transpose a matrix represented as a list of strings.
+    :param matrix: The input matrix as a list of strings
+    :return: The transposed matrix as a list of strings
+    """
+    # Convert the list of strings to a 2D numpy array
+    np_matrix = np.array([list(row) for row in matrix])
+    matrix_transposed = np.transpose(np_matrix)
+    return [''.join(row) for row in matrix_transposed]
