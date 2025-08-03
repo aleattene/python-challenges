@@ -150,3 +150,23 @@ def transpose_matrix_of_strings(matrix: list[str]) -> list[str]:
     np_matrix = np.array([list(row) for row in matrix])
     matrix_transposed = np.transpose(np_matrix)
     return [''.join(row) for row in matrix_transposed]
+
+def get_median_from_list_integers(numbers: list[int]) -> int:
+    """
+    Calculate the median of a list of numbers.
+    :param numbers: A list of integers.
+    :return: The median value.
+    """
+    if not numbers:
+        return 0
+    array_numbers = np.array(numbers)
+    np_median = np.median(array_numbers)
+    return int(np_median)
+
+def from_list_strings_to_list_integers(strings: list[str]) -> list[int]:
+    """
+    Convert a list of strings to a list of integers.
+    :param strings: A list of strings representing integers.
+    :return: A list of integers.
+    """
+    return list(map(int, strings))
