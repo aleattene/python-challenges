@@ -1,4 +1,4 @@
-from utils.file_utils import get_input_file_path, read_input_file
+from utils.aoc_utils import get_input_file_path, read_input_file
 
 
 def do_polymer_reactions(polymer: str) -> str:
@@ -9,7 +9,7 @@ def do_polymer_reactions(polymer: str) -> str:
     :return: string representing the polymer after all possible reactions.
     """
     # Initialize the stack of characters to keep track of the polymer during the possible reactions
-    chars_stack: list[str] = list()
+    chars_stack: list[str] = []
 
     # Iterate through each character in the polymer
     for char in polymer:
