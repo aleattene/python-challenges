@@ -1,5 +1,5 @@
 from itertools import product
-from utils.file_utils import get_input_file_path, read_input_file
+from utils.aoc_utils import get_input_file_path, read_input_file
 
 
 def evaluate_left_to_right_expression(numbers: list[int], operators: list[str]) -> int:

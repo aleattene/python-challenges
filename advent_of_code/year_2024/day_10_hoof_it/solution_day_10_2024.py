@@ -43,7 +43,7 @@ def find_start_positions(topographic_map, start_value=0):
 
 
 def solve_day_10_2024(filename: str) -> tuple[int, int] | str:
-    """Find unique paths in a topographic map."""
+    """Solutions for Day 10 of AoC 2024."""
     try:
         input_file_path = get_input_file_path(__file__, filename)
         data = read_input_file(input_file_path)

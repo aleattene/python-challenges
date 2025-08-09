@@ -1,5 +1,5 @@
 import re
-from utils.file_utils import get_input_file_path, read_input_file
+from utils.aoc_utils import get_input_file_path, read_input_file
 
 
 def find_occurrences_pattern(string: str, pattern: str) -> int:
