@@ -1,4 +1,4 @@
-from utils.file_utils import get_input_file_path
+from utils.aoc_utils import get_input_file_path
 
 
 def get_most_and_least_common_bits(data: str) -> tuple[str, str]:

@@ -1,4 +1,4 @@
-from utils.file_utils import get_input_file_path
+from utils.aoc_utils import get_input_file_path
 
 
 def solve_day_01_2021(filename: str) -> tuple[int, int]:
