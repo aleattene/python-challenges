@@ -1,5 +1,5 @@
 from collections import Counter
-from utils.file_utils import get_input_file_path, read_input_file, encrypt_caesar_cipher_with_exceptions
+from utils.aoc_utils import get_input_file_path, read_input_file, encrypt_caesar_cipher_with_exceptions
 
 
 def solve_day_04_2016(filename: str) -> tuple[int, int | None]:

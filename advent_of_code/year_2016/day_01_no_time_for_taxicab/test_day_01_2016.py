@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 from .solution_day_01_2016 import solve_day_01_2016
 
-load_dotenv
+load_dotenv()
 environment = os.getenv("ENVIRONMENT")
 
 filename_demo = "input_demo.txt"

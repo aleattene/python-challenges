@@ -1,4 +1,4 @@
-from utils.file_utils import get_input_file_path, read_input_file, get_manhattan_distance
+from utils.aoc_utils import get_input_file_path, read_input_file, get_manhattan_distance
 
 
 def solve_day_01_2016(filename: str) -> tuple[int, int] | str:

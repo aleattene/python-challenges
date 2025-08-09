@@ -1,4 +1,4 @@
-from utils.file_utils import get_input_file_path, read_input_file
+from utils.aoc_utils import get_input_file_path, read_input_file
 
 
 def get_md5_hash(text_to_encode: str | bytes) -> str:
