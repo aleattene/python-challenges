@@ -1,5 +1,5 @@
 import math
-from utils.file_utils import get_input_file_path, read_input_file
+from utils.aoc_utils import get_input_file_path, read_input_file
 
 
 def count_trees(data: list[str], slope: tuple[int, int]) -> int:

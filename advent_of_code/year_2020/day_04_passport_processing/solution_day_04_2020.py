@@ -1,5 +1,5 @@
 from typing import Callable
-from utils.file_utils import get_input_file_path
+from utils.aoc_utils import get_input_file_path
 
 def is_valid_field_byr(value: str) -> bool:
     """

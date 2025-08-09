@@ -1,4 +1,4 @@
-from utils.file_utils import get_input_file_path
+from utils.aoc_utils import get_input_file_path
 
 def get_row_from_boarding_card(boarding_card: str) -> int:
     """
