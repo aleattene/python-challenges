@@ -1,4 +1,4 @@
-from utils.file_utils import get_input_file_path, read_input_file
+from utils.aoc_utils import get_input_file_path, read_input_file
 
 
 def parse_row(row: str, idx_row: int) -> tuple[int, list[str], list[str]]:

@@ -1,4 +1,4 @@
-from utils.file_utils import get_input_file_path, read_input_file
+from utils.aoc_utils import get_input_file_path, read_input_file
 
 
 def find_all_matches(line: str, verbose_to_numbers: dict[str, int]) -> list[tuple[int, str]]:
