@@ -1,5 +1,5 @@
 from collections import defaultdict
-from utils.file_utils import get_input_file_path, read_input_file
+from utils.aoc_utils import get_input_file_path, read_input_file
 
 
 def is_valid_step(x, y, topographic_map, prev_value):
