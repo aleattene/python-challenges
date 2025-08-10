@@ -1,7 +1,6 @@
 import os
 from dotenv import load_dotenv
-from .solution_one_01_2015 import find_floor
-from .solution_two_01_2015 import find_index_position_enter_basement
+from .solution_day_01_2015 import solve_01_2015
 
 load_dotenv()
 environment = os.getenv("ENVIRONMENT")
@@ -14,14 +13,10 @@ file_path = os.path.join(current_dir, filename)
 
 
 def test_day_01_2015():
-    result_demo = find_floor(file_path_demo)
-    assert result_demo == -3
-    result_demo = find_index_position_enter_basement(file_path_demo)
-    assert result_demo == 43
+    results_demo = solve_01_2015(file_path_demo)
+    assert results_demo == (-3, 43)
     if environment == "development":
-        expected_result_one = int(os.getenv("SOLUTION_01_DAY_01_2015"))
-        result_one = find_floor(file_path)
-        assert expected_result_one == result_one
-        expected_result_two = int(os.getenv("SOLUTION_02_DAY_01_2015"))
-        result_two = find_index_position_enter_basement(file_path)
-        assert expected_result_two == result_two
+        expected_results = (int(os.getenv("SOLUTION_01_DAY_01_2015")),
+                            int(os.getenv("SOLUTION_02_DAY_01_2015")))
+        results = solve_01_2015(file_path)
+        assert expected_results == results

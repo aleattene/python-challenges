@@ -42,7 +42,7 @@ def solve_day_01_2024(filename: str) -> tuple[int, int]:
 if __name__ == "__main__":
     # Import function to print results
     import time
-    from utils.file_utils import print_day_results
+    from utils.aoc_utils import print_day_results
 
     # Calculate results for demo and real input files
     demo_1, demo_2 = solve_day_01_2024("input_demo.txt")
