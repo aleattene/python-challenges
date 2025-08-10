@@ -1,5 +1,5 @@
 import re
-from utils.file_utils import (
+from utils.ec_utils import (
     get_input_file_path, read_input_file,
     from_linear_to_circular_string,
     transpose_matrix_of_strings
@@ -120,7 +120,7 @@ def solve_02_2024(filename: str) -> tuple[int, int, int]:
 if __name__ == "__main__":
     # Import function to print results
     import time
-    from utils.file_utils import print_day_results
+    from utils.ec_utils import print_day_results
 
     # Calculate results for demo and real input files
     demo_1, demo_2, demo_3 = solve_02_2024("input_demo.txt")
