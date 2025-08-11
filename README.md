@@ -1,5 +1,13 @@
 ## 🧩 Python Challenges 🐍
 
+![Python](https://badgen.net/badge/Built%20with/Python/blue)
+[![codecov](https://codecov.io/gh/aleattene/advent-of-code/graph/badge.svg?token=1GAFPNSUMB)](https://codecov.io/gh/aleattene/advent-of-code)
+[![Tests](https://github.com/aleattene/advent-of-code/actions/workflows/aoc-tests.yml/badge.svg)](https://github.com/aleattene/advent-of-code/actions/workflows/aoc-tests.yml)
+[![GitHub commits](https://badgen.net/github/commits/aleattene/python-challenges)](https://github.com/aleattene/python-challnges/commits/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/aleattene/python-challenges)](https://github.com/aleattene/python-challenges/commits/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/aleattene/advent-of-code/pulls)
+[![License](https://img.shields.io/github/license/aleattene/python-challenges?color=blue)](https://github.com/aleattene/python-challenges/blob/main/LICENSE)
+
 A collection of my **python coding challenges** and practice **exercises**, focusing on **problem solving**, **data structures**, and **algorithms**.
 
 ---
