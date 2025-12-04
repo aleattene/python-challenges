@@ -1,0 +1,1 @@
+## Day 04/2025: [Printing Department](https://adventofcode.com/2025/day/4)
